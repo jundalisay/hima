@@ -1,8 +1,9 @@
-baseURL = "https://rapidob/"
+baseURL = "https://neoholistic.shop/"
+# baseURL = "https://hima.pages.dev/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Himalayan Asia Management Consulting Service"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -16,10 +17,10 @@ weight = 2
 name = "Service"
 url = "#service"
 weight = 3
-[[menu.main]]
-name = "Work"
-url = "#portfolio"
-weight = 4
+# [[menu.main]]
+# name = "Work"
+# url = "#portfolio"
+# weight = 4
 # [[menu.main]]
 # name = "Resume"
 # url = "#resume"
