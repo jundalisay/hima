@@ -1,0 +1,7 @@
+<div class="blog-section">
+    <h3>{{ .Get "title" }}</h3>
+    <img src="{{ .Get "image" | absURL}}"  alt="blog-img" class="p-3">
+    <p>
+        {{ .Inner }}
+    </p>
+</div>
