@@ -2,8 +2,11 @@
 enable: true
 topTitle: What We Do
 ## Professional Services
+#  We work both for the private and public sectors, both for local and regional development.
+# Himalayan Asia Management Consulting Services
 title: >
-  We work both for the private and public sectors, both for local and regional development.
+  We are a professional services partner providing technical assistance in the fields of agriculture, forestry, geological and environmental management, and local governance
+
 service:
   - content: >
       #### Advisory Services
