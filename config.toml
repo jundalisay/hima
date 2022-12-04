@@ -27,7 +27,7 @@ weight = 3
 # weight = 5
 [[menu.main]]
 name = "Team"
-url = "#skills"
+url = "#team"
 weight = 6
 [[menu.main]]
 name = "Blog"
