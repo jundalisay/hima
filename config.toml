@@ -1,0 +1,97 @@
+baseURL = "https://www.himalayan-asia.com/"
+languageCode = "en-us"
+paginate = 6
+theme = "portio"
+title = "Himalayan Asia Management Consulting Service"
+# Main Menu
+[[menu.main]]
+name = "Home"
+url = "#home"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "#about"
+weight = 2
+[[menu.main]]
+name = "Service"
+url = "#service"
+weight = 3
+# [[menu.main]]
+# name = "Work"
+# url = "#portfolio"
+# weight = 4
+# [[menu.main]]
+# name = "Resume"
+# url = "#resume"
+# weight = 5
+[[menu.main]]
+name = "Team"
+url = "#team"
+weight = 6
+[[menu.main]]
+name = "Blog"
+url = "#blog"
+weight = 7
+[[menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 8
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "About Us"
+url = "about"
+weight = 1
+[[menu.sitemap]]
+name = "Frequently Asked Questions"
+url = "#"
+weight = 2
+[[menu.sitemap]]
+name = "Privacy & Policy"
+url = "#"
+weight = 3
+[[menu.sitemap]]
+name = "Latest Article"
+url = "#"
+weight = 4
+
+[params]
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "All right reserved © Himalayan Consulting Services 2023"
+footerLogo = "images/contact/widget-logo.png"
+# We're using formspree.io for form handling, paste your formspree url below
+# fabformURL  = "https://fabform.io/f/JpTXRUa"
+googleAnalytics = "G-195T973V33"
+logo = "/logo.png"
+
+
+[params.address]
+address = "Quirino Extension, Poblacion, Malita, Davao Occidental"
+email = "himalayan.consulting.919@gmail.com"
+# openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+phone = "+(63) 917 847 9462"
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+# latitude = "23.7783741"
+# longitude = "90.3746808"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/"
+weight = 1
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/"
+weight = 2
+# [[params.social]]
+# icon = "fa-pinterest-square"
+# url = "https://www.pinterest.com/"
+# weight = 3
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/"
+weight = 4

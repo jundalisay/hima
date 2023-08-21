@@ -1,0 +1,63 @@
+---
+enable: true
+topTitle: The Team
+title: >
+  ## Our Expertise
+
+tab1Name: Management and Senior
+tab2Name: Support and Junior
+tab1Target: education
+tab2Target: experience
+
+education:
+  - content: >
+      #### Frederick F. Fajardo, EnP
+      
+      "I love working with disadvantaged communities, creating opportunities for them, and crafting plans to achieve this goal."
+    time: Managing Director
+    avatar: /avatars/fajardo.png
+  - content: >
+      #### Michael B. Lituanas, R. Geo
+
+      "I am a rational person who loves to dive deep into geological and environmental issues and topics."
+    time: Senior Technical Consultant, Geotechnical Engineering
+    avatar: /avatars/lituanas.png    
+  - content: >
+      #### Jinky C. Comon, RFT, EnP
+
+      I am passionate about coastal fisheries and sustainable aquaculture as a means to improve the quality of life of members of grassroots communities by building their capacities and harnessing the resilience in these people. 
+    time: Senior Technical Consultant Coastal Fisheries Aquaculture
+    avatar: /avatars/comon.png    
+  - content: >
+      #### Erick Tan Ko, CE, SE
+
+      "I am passionate about the safety and standard designing of climate-resilient civil and environmental structures."
+    time: Senior Technical Consultant Sanitary Engineering Works
+    avatar: /avatars/ko.png    
+  - content: >
+      #### Lyssa Mae Cabaobao, EnP
+
+      "I believe that connecting with the right people geared toward a common goal for the advancement of everyone’s quality of life."
+    time: Senior Research Specialist Forestry/gis
+    avatar: /avatars/cabaobao.png
+
+experience:
+  - content: >
+      #### Hazel Ann B. Siatan, EnP
+
+      I love traveling and meeting people and have used this passion to create communities that work toward a common goal. 
+    time: Community Development Specialist
+    avatar: /avatars/siatan.png    
+  - content: >
+      #### Madelyn C. Birondo
+
+      I understand the role of proper licensing prior to establishing any structures. I firmly believe in the importance of proper waste disposal as a means to improve the quality of life. 
+    time: Solid Waste Management/ecc Processing
+    avatar: /avatars/birondo.png    
+  - content: >
+      #### Mae Christine V. Obusa, RFT
+
+      "I am a firm believer that a carefully written document makes it easy for the layman to understand and eliminates confusion during the implementation of the project or plan."
+    time: Digital Marketing /technical Writing
+    avatar: /avatars/obusa.png    
+
