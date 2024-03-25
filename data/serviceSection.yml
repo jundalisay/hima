@@ -12,32 +12,32 @@ service:
       #### Advisory Services
 
       We offer Consultancy for both the private and public sectors.
-    image: images/service/ui-ux.svg
+    image: /phone.svg
   - content: >
       #### Eco-biological Assessment
 
       We perform tests on water for the sampling of pollutants, chemicals, minerals, etc. 
-    image: images/service/web.svg
+    image: /click.svg
   - content: >
       #### Geological & Environmental Management Services
 
       Initial Environment Examination (IEE), Environmental Impact Assessment (EIA), Engineering Geological & Geohazard Assessment (EGGAR), Eco-biological Assessment, Socio-economic Assessment, Traffic Impact Assessment, and Noise & Air Study
-    image: images/service/creative.svg
+    image: /globe.svg
   - content: >
       #### Socio Economic Assessment
 
       We analyze the social, educational, economic and political environments of people, classes, societies and organizations.
-    image: images/service/branding.svg
+    image: /map.svg
   - content: >
       #### Research and Preparation Of Plans, Studies, Proposals, & Reports
 
       We develop plans and proposals for loans and grants for private and government agencies. These include Development of Comprehensive Land Use Plan (CLUP), Comprehensive Development Plan (CDP), Barangay Development Plan (BDP), and Project Feasibility Studies. We research in the field of geology, fisheries, agriculture, marketing, and environmental planning.
-    image: images/service/ui-ux.svg
+    image: /chart.svg
   - content: >
       #### Training & Facilitation
 
       We empower communities with life skills, sustainable agriculture and aquaculture, market survey and scanning, and environmental planning and governance.
-    image: images/service/web.svg
+    image: /trend.svg
 
 
 # Advisory Services
