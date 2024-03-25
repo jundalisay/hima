@@ -23,16 +23,18 @@
 			{{ range first 3 (where $.Site.RegularPages "Type" "!=" "portfolio") }}
 			<div class="col-lg-4">
 				<div class="blog-preview__item">
+<a href="{{ .Permalink }}">
 					<div class="blog-preview__item-thumb">
 						<img src="{{ .Params.featureImage | absURL }}" alt="post-image">
 					</div>
 					<div class="blog-preview__item-content bg-white">
 						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>
 						<h5 class="mb-0">
-							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+							{{ .Title }}
 						</h5>
 					</div>
 				</div>
+</a>				
 			</div>
 			{{ end }}
 

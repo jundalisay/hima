@@ -81,17 +81,17 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+url = "https://web.facebook.com/himalayanasiamanagementconsultingservices"
 weight = 1
-[[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
-weight = 2
+# [[params.social]]
+# icon = "fa-linkedin-square"
+# url = "https://www.linkedin.com/"
+# weight = 2
 # [[params.social]]
 # icon = "fa-pinterest-square"
 # url = "https://www.pinterest.com/"
 # weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
+# [[params.social]]
+# icon = "fa-twitter-square"
+# url = "https://twitter.com/"
+# weight = 4

@@ -39,14 +39,12 @@
 					<img src="{{ .Site.Params.footerLogo | absURL }}" alt="widget-logo">
 				</div>
 			</div>
+
 			<div class="col-lg-4">
 				<div class="text-light footer__widget_sitemap mb-5">
-					<h4 class="base-font">Sitemap</h4>
+					<h4 class="base-font">Social</h4>
 					<ul class="unstyle-list small">
-						{{ $sitemap := .Site.Menus.sitemap }}
-						{{ range $sitemap }}
-						<li class="mb-2"><a class="text-light" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-						{{ end }}
+						<a href="https://web.facebook.com/himalayanasiamanagementconsultingservices">Facebook</a>
 					</ul>
 				</div>
 			</div>
@@ -67,27 +65,14 @@
 			</div>
 		</div>
 		<div class="row footer__footer">
-			<div class="col-lg-6">
-				<div class="footer__footer_copy text-light">
-					<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a class="text-light" href="https://pantrypoints.com/" target="_blank">Pantry Peers</a></p>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="footer__footer_social">
-					<ul class="unstyle-list">
-						{{ $social := .Site.Params.social }}
-						{{ range $social }}
-						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="{{ .url }}"><i
-									class="fa {{ .icon }}"></i></a>
-						</li>
-						{{ end }}
-					</ul>
-				</div>
+			<div class="footer__footer_copy text-light">
+				<p>Copyright {{ dateFormat "2006" now }} - All Rights Reserved by Himalayan Asia Management Consulting Services | Made by <a class="text-light" href="https://pantrypoints.com/" target="_blank">Pantrypoints Technologies</a></p>
 			</div>
 		</div>
 	</div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.map.APIkey }}&libraries=geometry"></script>
+
+
 <script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
 <script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
 <script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
@@ -100,3 +85,16 @@
 <script src="{{ $formhandler.Permalink }}"></script> -->
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
+
+
+
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						{{ $social := .Site.Params.social }}
+						{{ range $social }}
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="{{ .url }}"><i
+									class="fa {{ .icon }}"></i></a>
+						</li>
+						{{ end }}
+					</ul>
+				</div>
