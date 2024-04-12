@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Portfolio on Himalayan Asia Management Consulting Service</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Our Portfolio on Himalayan Asia Management Consulting Service</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2020 12:49:27 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community-based Circular Economy</title>
+      <link>http://localhost:1313/portfolio/pantrypoints/</link>
+      <pubDate>Mon, 13 Jul 2020 12:49:27 +0600</pubDate>
+      <guid>http://localhost:1313/portfolio/pantrypoints/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
